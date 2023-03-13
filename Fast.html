@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>University Landing Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .header {
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+      }
+      
+      .header img {
+        height: 50px;
+      }
+      
+      nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      nav li {
+        margin-right: 20px;
+      }
+      
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        z-index: 1;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropdown-content a {
+        color: #333;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+      }
+      
+      .dropdown-content a:hover {
+        background-color: #f1f1f1;
+      }
+      
+      .content {
+        padding: 50px 20px;
+        text-align: center;
+      }
+      
+      .content h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+      
+      .content p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 40px;
+      }
+      
+      button {
+        background-color: #333;
+        border: none;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      button:hover {
+        background-color: #666;
+      }
+      
+      .image-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 0;
+      }
+      
+      .image-container img {
+        max-width: 30%;
+        height: auto;
+      }
+      
+      .footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      .footer p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img src="C:\Users\Student\Pictures\NU-logo.jpg" alt="University Logo">
+      <nav>
+        <ul>
+          <li><a href="Fast.html">Home</a></li>
+          <li><a href="Academics.html">Academics</a></li>
+          <li class="dropdown">
+            <a href="Departments.html">Departments</a>
+            <div class="dropdown-content">
+              <a href="Cs.html">CS Department </a>
+              <a href="bba.html">BBA Department </a>
+              <a href="arts.html">Arts Department </a>
+            </div>
+          </li>
+          <li><a href="Contract.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="image-container">
+      <img src="C:\Users\Student\Pictures\01.jpg" alt="Image 1">
+      <img src="C:\Users\Student\Pictures\download (1).jpg" alt="Image 2">
+      <img src="C:\Users\Student\Pictures\images (5).jpg" alt="Image 3">
+    </div>
+    <div class="content">
+      <h1>Why Fast</h1>
+      <p>Founded as a Federally Chartered University in July 2000, the National University of Computer and Emerging Sciences is a premiere University of Pakistan, renowned for quality and impact of its students in the development of local software and other industries. The university has five modern campuses at Karachi, Lahore, Islamabad, Peshawar and Chiniot-Faisalabad. These campuses provide world class educational environment and recreational facilities to about over 11,000 students, around one quarter are female and over 500 skilled faculty members.
+
+        Research wings of the university are well recognized, nationally and internationally. They are embarked upon cutting edge research having direct impact on the social, economic and technological needs of Pakistan. Our vision is to become a globally recognized research university of Pakistan within the next decade.</p>
+      <button href="https://www.nu.edu.pk/#">Learn More</button>
+    </div>
+    <div class="footer">
+      <p>&copy; 2023 University. All rights reserved.</p>
+    </div>
+    
